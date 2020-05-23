@@ -17,7 +17,7 @@ source:
     - nvcc-boost-include-dirs.patch
 
 build:
-  number: 0
+  number: 1
   # OmniSciDB server is linux-only program
   skip: True  # [not (linux64 and cuda_compiler_version == "10.1")]
   missing_dso_whitelist:
